@@ -1,0 +1,6 @@
+sort1 uses: Bubble Sort
+How do you know?: The sorting program performs excellently when the list is already sorted, with a time complexity of O(n). However, it performs very poorly on a large randomly ordered list, indicating an O(n²) complexity typical of Bubble Sort. The slow performance on a reversed list also aligns with Bubble Sort's inefficiency when many swaps are required.
+sort2 uses: Merge Sort
+How do you know?: The sorting program exhibits consistently fast sorting across all inputs, regardless of whether the list is sorted, reversed, or randomly ordered. This suggests an O(n log n) complexity typical of Merge Sort, which is efficient even in the worst case due to its divide-and-conquer approach.
+sort3 uses: Selection Sort
+How do you know?: The sorting program shows moderate performance on random and reversed data, better than Bubble Sort but far worse than Merge Sort. The algorithm's pattern of finding the minimum element in the unsorted portion and swapping it indicates an O(n²) complexity, characteristic of Selection Sort.
